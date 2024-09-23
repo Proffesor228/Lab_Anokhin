@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hometask2_3_Cube", "Hometask2_3_Cube\Hometask2_3_Cube.vcxproj", "{A71C7C0C-E335-4980-A295-73276E59A695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A71C7C0C-E335-4980-A295-73276E59A695}.Debug|x64.ActiveCfg = Debug|x64
+		{A71C7C0C-E335-4980-A295-73276E59A695}.Debug|x64.Build.0 = Debug|x64
+		{A71C7C0C-E335-4980-A295-73276E59A695}.Debug|x86.ActiveCfg = Debug|Win32
+		{A71C7C0C-E335-4980-A295-73276E59A695}.Debug|x86.Build.0 = Debug|Win32
+		{A71C7C0C-E335-4980-A295-73276E59A695}.Release|x64.ActiveCfg = Release|x64
+		{A71C7C0C-E335-4980-A295-73276E59A695}.Release|x64.Build.0 = Release|x64
+		{A71C7C0C-E335-4980-A295-73276E59A695}.Release|x86.ActiveCfg = Release|Win32
+		{A71C7C0C-E335-4980-A295-73276E59A695}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2403C016-8072-4F09-8CE6-43F4F3776F72}
+	EndGlobalSection
+EndGlobal
