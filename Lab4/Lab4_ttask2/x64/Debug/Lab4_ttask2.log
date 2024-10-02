@@ -1,0 +1,3 @@
+﻿  Lab4_task2.c
+C:\Users\PC\source\repos\Lab4\Lab4_ttask2\Lab4_task2.c(10,14): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+  Lab4_ttask2.vcxproj -> C:\Users\PC\source\repos\Lab4\x64\Debug\Lab4_ttask2.exe
