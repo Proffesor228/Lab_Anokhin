@@ -1,0 +1,4 @@
+﻿  Lab6_Hometask.c
+C:\Users\PC\source\repos\Lab6_Hometask\Lab6_Hometask\Lab6_Hometask.c(14,65): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\PC\source\repos\Lab6_Hometask\Lab6_Hometask\Lab6_Hometask.c(15,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Lab6_Hometask.vcxproj -> C:\Users\PC\source\repos\Lab6_Hometask\x64\Debug\Lab6_Hometask.exe
