@@ -1,0 +1,12 @@
+﻿  Lab7_task2.c
+C:\Users\student\source\repos\Lab7_task2\Lab7_task2\Lab7_task2.c(12,10): warning C4477: "scanf_s": в строке форматирования "%c" требуется аргумент типа "unsigned int", но вариативный аргумент "3" имеет тип "float *"
+      C:\Users\student\source\repos\Lab7_task2\Lab7_task2\Lab7_task2.c(12,10):
+      этот аргумент используется в качестве размера буфера
+  
+C:\Users\student\source\repos\Lab7_task2\Lab7_task2\Lab7_task2.c(12,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+      C:\Users\student\source\repos\Lab7_task2\Lab7_task2\Lab7_task2.c(12,10):
+      заполнители и их параметры ожидают переменное число аргументов в количестве 4, но было предоставлено 3
+      C:\Users\student\source\repos\Lab7_task2\Lab7_task2\Lab7_task2.c(12,10):
+      отсутствующий вариативный аргумент "4" требуется для строки форматирования "%f"
+  
+  Lab7_task2.vcxproj -> C:\Users\student\source\repos\Lab7_task2\Lab7_task2\x64\Debug\Lab7_task2.exe
