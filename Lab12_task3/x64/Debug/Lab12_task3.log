@@ -1,0 +1,8 @@
+﻿  Lab12_task3.c
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task3\Lab12_task3.c(12,9): warning C4477: "printf": в строке форматирования "%g" требуется аргумент типа "double", но вариативный аргумент "2" имеет тип "int"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task3\Lab12_task3.c(14,9): warning C4477: "printf": в строке форматирования "%g" требуется аргумент типа "double", но вариативный аргумент "2" имеет тип "int"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task3\Lab12_task3.c(16,9): warning C4477: "printf": в строке форматирования "%g" требуется аргумент типа "double", но вариативный аргумент "2" имеет тип "int"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task3\Lab12_task3.c(34,9): warning C4477: "printf": в строке форматирования "%g" требуется аргумент типа "double", но вариативный аргумент "2" имеет тип "int"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task3\Lab12_task3.c(36,9): warning C4477: "printf": в строке форматирования "%g" требуется аргумент типа "double", но вариативный аргумент "2" имеет тип "int"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task3\Lab12_task3.c(38,9): warning C4477: "printf": в строке форматирования "%g" требуется аргумент типа "double", но вариативный аргумент "2" имеет тип "int"
+  Lab12_task3.vcxproj -> C:\Users\PC\source\repos\Lab12_task1\x64\Debug\Lab12_task3.exe

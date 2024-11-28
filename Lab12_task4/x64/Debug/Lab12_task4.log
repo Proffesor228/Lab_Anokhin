@@ -1,0 +1,11 @@
+﻿  Lab12_task4.c
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task4\Lab12_task4.c(8,22): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task4\Lab12_task4.c(8,27): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task4\Lab12_task4.c(8,32): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task4\Lab12_task4.c(8,37): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task4\Lab12_task4.c(8,45): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task4\Lab12_task4.c(8,49): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task4\Lab12_task4.c(8,53): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task4\Lab12_task4.c(8,57): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task4\Lab12_task4.c(8,61): warning C4305: инициализация: усечение из "double" в "float"
+  Lab12_task4.vcxproj -> C:\Users\PC\source\repos\Lab12_task1\x64\Debug\Lab12_task4.exe

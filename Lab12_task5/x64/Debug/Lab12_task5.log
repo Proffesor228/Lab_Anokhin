@@ -1,0 +1,4 @@
+﻿  Lab12_task5.c
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task5\Lab12_task5.c(9,6): warning C4133: =: несовместимые типы - из "int *" в "double *"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task5\Lab12_task5.c(15,9): warning C4477: "printf": в строке форматирования "%.2x" требуется аргумент типа "unsigned int", но вариативный аргумент "5" имеет тип "double"
+  Lab12_task5.vcxproj -> C:\Users\PC\source\repos\Lab12_task1\x64\Debug\Lab12_task5.exe
