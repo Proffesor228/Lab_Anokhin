@@ -1,0 +1,92 @@
+﻿  Lab12_home.c
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9): warning C4477: "printf": в строке форматирования "%ld" требуется аргумент типа "long", но вариативный аргумент "1" имеет тип "__int64"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9): warning C4477: "printf": в строке форматирования "%ld" требуется аргумент типа "long", но вариативный аргумент "2" имеет тип "__int64"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9): warning C4477: "printf": в строке форматирования "%ld" требуется аргумент типа "long", но вариативный аргумент "3" имеет тип "__int64"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9): warning C4477: "printf": в строке форматирования "%ld" требуется аргумент типа "long", но вариативный аргумент "4" имеет тип "__int64"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9): warning C4477: "printf": в строке форматирования "%ld" требуется аргумент типа "long", но вариативный аргумент "5" имеет тип "__int64"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9): warning C4477: "printf": в строке форматирования "%ld" требуется аргумент типа "long", но вариативный аргумент "6" имеет тип "__int64"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(22,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9): warning C4477: "printf": в строке форматирования "%ld" требуется аргумент типа "long", но вариативный аргумент "1" имеет тип "__int64"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9): warning C4477: "printf": в строке форматирования "%ld" требуется аргумент типа "long", но вариативный аргумент "2" имеет тип "__int64"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9): warning C4477: "printf": в строке форматирования "%ld" требуется аргумент типа "long", но вариативный аргумент "3" имеет тип "__int64"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9): warning C4477: "printf": в строке форматирования "%ld" требуется аргумент типа "long", но вариативный аргумент "4" имеет тип "__int64"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9): warning C4477: "printf": в строке форматирования "%ld" требуется аргумент типа "long", но вариативный аргумент "5" имеет тип "__int64"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(23,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(18,14): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_home\Lab12_home.c(25,27): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+  Lab12_home.vcxproj -> C:\Users\PC\source\repos\Lab12_task1\x64\Debug\Lab12_home.exe

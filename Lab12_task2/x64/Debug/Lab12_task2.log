@@ -1,0 +1,7 @@
+﻿  Lab12_task2.c
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task2\Lab12_task2.c(14,9): warning C4477: "printf": в строке форматирования "%x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "float *"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task2\Lab12_task2.c(14,9): warning C4313: printf: конфликт "%x" в строке формата с аргументом 1 типа "float *"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task2\Lab12_task2.c(15,9): warning C4477: "printf": в строке форматирования "%x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "float *"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task2\Lab12_task2.c(15,9): warning C4313: printf: конфликт "%x" в строке формата с аргументом 1 типа "float *"
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task2\Lab12_task2.c(8,13): warning C4305: инициализация: усечение из "double" в "float"
+  Lab12_task2.vcxproj -> C:\Users\PC\source\repos\Lab12_task1\x64\Debug\Lab12_task2.exe

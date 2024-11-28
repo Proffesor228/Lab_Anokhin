@@ -1,0 +1,14 @@
+﻿  Lab12_task1.c
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task1\Lab12_task1.c(11,9): warning C4477: "printf": в строке форматирования "%lu" требуется аргумент типа "unsigned long", но вариативный аргумент "1" имеет тип "size_t"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_task1\Lab12_task1.c(11,9):
+      рекомендуется использовать "%zu" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task1\Lab12_task1.c(12,9): warning C4477: "printf": в строке форматирования "%lu" требуется аргумент типа "unsigned long", но вариативный аргумент "1" имеет тип "size_t"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_task1\Lab12_task1.c(12,9):
+      рекомендуется использовать "%zu" в строке форматирования
+  
+C:\Users\PC\source\repos\Lab12_task1\Lab12_task1\Lab12_task1.c(13,9): warning C4477: "printf": в строке форматирования "%lu" требуется аргумент типа "unsigned long", но вариативный аргумент "1" имеет тип "size_t"
+      C:\Users\PC\source\repos\Lab12_task1\Lab12_task1\Lab12_task1.c(13,9):
+      рекомендуется использовать "%zu" в строке форматирования
+  
+  Lab12_task1.vcxproj -> C:\Users\PC\source\repos\Lab12_task1\x64\Debug\Lab12_task1.exe
