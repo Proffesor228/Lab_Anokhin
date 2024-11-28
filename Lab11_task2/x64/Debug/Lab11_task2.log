@@ -1,0 +1,8 @@
+﻿  Lab11_task2.c
+C:\Users\PC\source\repos\Lab10_task1\Lab11_task2\Lab11_task2.c(11,33): warning C4305: +=: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab10_task1\Lab11_task2\Lab11_task2.c(13,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\PC\source\repos\Lab10_task1\Lab11_task2\Lab11_task2.c(29,36): warning C4305: +=: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab10_task1\Lab11_task2\Lab11_task2.c(31,11): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\PC\source\repos\Lab10_task1\Lab11_task2\Lab11_task2.c(9,18): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab10_task1\Lab11_task2\Lab11_task2.c(27,21): warning C4305: инициализация: усечение из "double" в "float"
+  Lab11_task2.vcxproj -> C:\Users\PC\source\repos\Lab10_task1\x64\Debug\Lab11_task2.exe

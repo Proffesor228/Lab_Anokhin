@@ -1,0 +1,6 @@
+﻿  Lab10_task2.c
+C:\Users\PC\source\repos\Lab10_task1\Lab10_task2\Lab10_task2.c(21,58): warning C4244: функция: преобразование "double" в "int", возможна потеря данных
+C:\Users\PC\source\repos\Lab10_task1\Lab10_task2\Lab10_task2.c(9,20): warning C4101: y2: неиспользованная локальная переменная
+C:\Users\PC\source\repos\Lab10_task1\Lab10_task2\Lab10_task2.c(9,16): warning C4101: y1: неиспользованная локальная переменная
+C:\Users\PC\source\repos\Lab10_task1\Lab10_task2\Lab10_task2.c(9,24): warning C4101: y3: неиспользованная локальная переменная
+  Lab10_task2.vcxproj -> C:\Users\PC\source\repos\Lab10_task1\x64\Debug\Lab10_task2.exe

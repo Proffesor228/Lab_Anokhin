@@ -1,0 +1,7 @@
+﻿  Lab10_task3.c
+C:\Users\PC\source\repos\Lab10_task1\Lab10_task3\Lab10_task3.c(25,4): warning C4013: area_kvad: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\PC\source\repos\Lab10_task1\Lab10_task3\Lab10_task3.c(33,4): warning C4013: draw_kvad: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\PC\source\repos\Lab10_task1\Lab10_task3\Lab10_task3.c(66,1): warning C4716: area_kvad: должна возвращать значение
+C:\Users\PC\source\repos\Lab10_task1\Lab10_task3\Lab10_task3.c(48,1): warning C4715: fig: значение возвращается не при всех путях выполнения
+C:\Users\PC\source\repos\Lab10_task1\Lab10_task3\Lab10_task3.c(62,1): warning C4716: draw_kvad: должна возвращать значение
+  Lab10_task3.vcxproj -> C:\Users\PC\source\repos\Lab10_task1\x64\Debug\Lab10_task3.exe

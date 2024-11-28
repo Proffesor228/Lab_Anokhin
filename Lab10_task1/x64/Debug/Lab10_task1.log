@@ -1,0 +1,4 @@
+﻿  LAb10_task1.c
+C:\Users\PC\source\repos\Lab10_task1\Lab10_task1\LAb10_task1.c(9,14): warning C4101: y1: неиспользованная локальная переменная
+C:\Users\PC\source\repos\Lab10_task1\Lab10_task1\LAb10_task1.c(9,12): warning C4101: y: неиспользованная локальная переменная
+  Lab10_task1.vcxproj -> C:\Users\PC\source\repos\Lab10_task1\x64\Debug\Lab10_task1.exe
