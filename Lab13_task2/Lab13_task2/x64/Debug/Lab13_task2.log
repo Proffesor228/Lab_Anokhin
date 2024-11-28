@@ -1,0 +1,4 @@
+﻿  Lab13_task2.c
+C:\Users\PC\source\repos\Lab13_task1\Lab13_task2\Lab13_task2.c(12,9): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "2" имеет тип "int"
+C:\Users\PC\source\repos\Lab13_task1\Lab13_task2\Lab13_task2.c(12,9): warning C4313: printf: конфликт "%s" в строке формата с аргументом 2 типа "int"
+  Lab13_task2.vcxproj -> C:\Users\PC\source\repos\Lab13_task1\Lab13_task2\x64\Debug\Lab13_task2.exe
