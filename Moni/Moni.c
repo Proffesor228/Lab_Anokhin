@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <locale.h>
 typedef struct monitors
 {
 	char name[50];
@@ -16,13 +15,18 @@ int sorti(int* sort1,int* sort, moni_t* st, int i);
 moni_t edit_moni(moni_t* st);
 void savetxt(FILE* txt, moni_t st[], char* name, int i);
 void savefl(FILE* fl, moni_t* st, int* sort, int i);
+void search(moni_t* st, int i, char* name, size_t n);
+void search(moni_t* st, char name[8][20], int i);
 void main()
 {
-	setlocale(LC_CTYPE, "rus");
 	FILE* fl;
 	FILE* txt;
 	fl = fopen("monitors.bin", "ab+");
 	txt = fopen("monitors.txt", "w");
+	if (fl == NULL || txt == NULL) {
+		perror("Error occured while opening file");
+		return 1;
+	}
 	char ans = 'y';
 	char kl[40];
 	char name[8][20] = { "Name: ","Manufacturer: ","Diagonal: ","Resolution: ","Matrix: ","Curved screen: ","HDMI connector: " };
@@ -38,76 +42,18 @@ void main()
 	fclose(fl);
 	while (ans == 'y')
 	{
-		printf("Select the desired action:\n1)Create a new record\n2)Search for a record\n3)Display database\n4)Sort by manufacturer\n5)Edit record\n6)Add multiple records\n7)Save data\n");
+		printf("Select the desired action:\n1)Create a new record\n2)Search for a record\n3)Display database\n4)Sort by manufacturer\n5)Edit record\n6)Delete record\n7)Add multiple records\n8)Save data");
 		scanf("%d", &num);
-		if (num > 7 || num < 1) printf("\nThe required action was not found.\n");
+		if (num > 8 || num < 1) printf("\nThe required action was not found.\n");
 		switch (num)
 		{
 		case 1:
 			input_moni(st, i);
-			i++;
 			sort[i] = i;
-			printf("%d  %d", i, sort[i]);
+			i++;
 			break;
 		case 2:
-			printf("Search field:\n1) Matrix\n2) Diagonal in cm or inches\n3) By matrix and diagonal");
-			scanf("%d", &num);
-			switch (num)
-			{
-			case 1:
-				printf("Enter the key:");
-				scanf("%s", kl);
-				for (int j = 0;j < i;j++)
-				{
-					if (strstr(st[j].matr, kl) != NULL) printf("\n%s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s", name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
-				}
-				break;
-			case 2:
-				printf("Enter the key:\n1)In cm\n2)In inches\n");
-				scanf("%d", &num1);
-				switch (num1)
-				{
-				case 1:
-					for (int j = 0;j < i;j++)
-					{
-						if (strstr(st[j].diag, "cm") != NULL) printf("\n%s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s", name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
-					}
-					break;
-				case 2:
-					for (int j = 0;j < i;j++)
-					{
-						if (strstr(st[j].diag, "\"") != NULL) printf("\n%s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s", name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
-					}
-					break;
-				default:
-					printf("\nNo records found");
-					break;
-				}
-				break;
-			case 3:
-				printf("Enter the key for the matrix: \n");
-				scanf("%s", kl);
-				printf("Enter the key for diagonal:\n1)In cm\n2)In inches\n");
-				scanf("%d", &num1);
-				switch (num1)
-				{
-				case 1:
-					for (int j = 0;j < i;j++)
-					{
-						if (strstr(st[j].diag, "sm") != NULL) if (strstr(st[j].matr, kl) != NULL) printf("\n%d) %s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s",j+1, name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
-					}
-					break;
-				case 2:
-					for (int j = 0;j < i;j++)
-					{
-						if (strstr(st[j].diag, "\"") != NULL) if (strstr(st[j].matr, kl) != NULL) printf("\n%d) %s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s",j+1, name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
-					}
-					break;
-				default:
-					printf("\nNo records found");
-					break;
-				}
-			}
+			search(st, name, i);
 			break;
 		case 3:
 			for (int j = 0;j < i;j++)
@@ -123,9 +69,13 @@ void main()
 			}
 			break;
 		case 5:
+			for (int j = 0;j < i;j++)
+			{
+				printf("\n%d) %s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s", j + 1, name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
+			}
 			edit_moni(st);
 			break;
-		case 6:
+		case 7:
 			printf("How many records add?\n");
 			scanf("%d", &num1);
 			for (int j = 0;j < num1;j++)
@@ -135,7 +85,7 @@ void main()
 				sort[i] = i;
 			}
 			break;
-		case 7:
+		case 8:
 			fl = fopen("monitors.bin", "wb+");
 			txt = fopen("monitors.txt", "w");
 			fwrite(&st, sizeof(st), 1, fl);
@@ -146,6 +96,16 @@ void main()
 				fprintf(txt, "%d) %s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s\n", j+1, name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
 			}
 			printf("\nData saved succesfully\n");
+			break;
+		case 6:
+			for (int j = 0;j < i;j++)
+			{
+				printf("\n%d) %s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s", j + 1, name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
+			}
+			printf("Choose the record to delete\n");
+			scanf("%d", &num1);
+			for (int z = num1-1;z < i;z++) st[z] = st[z+1];
+			i -= 1;
 			break;
 		}
 		getchar();
@@ -172,15 +132,7 @@ moni_t input_moni(moni_t* st, int k)
 	scanf("%s", st[k].razh);
 	return st[k];
 }
-
-int add_moni(moni_t* arr, int size, moni_t st) 
-{
-
-	//проверки памяти
-	arr[size] = st;
-	return size++;
-}
-int sorti(int* sort1,int* sort,moni_t* st,int i)
+int sorti(int sort1[50], int sort[50], moni_t* st, int i)
 {
 	int frst = 0;
 	char pz[15];
@@ -244,4 +196,68 @@ void savefl(FILE*fl,moni_t*st,int*sort,int i)
 	fwrite(&i, sizeof(i), 1, fl);
 	fwrite(&sort, sizeof(sort), 1, fl);
 	printf("\nData saved succesfully\n");
+}
+void search(moni_t* st, char name[8][20], int i)
+{
+	int num = 0;
+	char kl[30];
+	int num1 = 0;
+	printf("Search field:\n1) Matrix\n2) Diagonal in cm or inches\n3) By matrix and diagonal");
+	scanf("%d", &num);
+	switch (num)
+	{
+	case 1:
+		printf("Enter the key:");
+		scanf("%s", kl);
+		for (int j = 0; j < i; j++)
+		{
+			if (strstr(st[j].matr, kl) != NULL) printf("\n%s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s", name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
+		}
+		break;
+	case 2:
+		printf("Enter the key:\n1)In cm\n2)In inches\n");
+		scanf("%d", &num1);
+		switch (num1)
+		{
+		case 1:
+			for (int j = 0; j < i; j++)
+			{
+				if (strstr(st[j].diag, "cm") != NULL) printf("\n%s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s", name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
+			}
+			break;
+		case 2:
+			for (int j = 0; j < i; j++)
+			{
+				if (strstr(st[j].diag, "\"") != NULL) printf("\n%s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s", name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
+			}
+			break;
+		default:
+			printf("\nNo records found");
+			break;
+		}
+		break;
+	case 3:
+		printf("Enter the key for the matrix: \n");
+		scanf("%s", kl);
+		printf("Enter the key for diagonal:\n1)In cm\n2)In inches\n");
+		scanf("%d", &num1);
+		switch (num1)
+		{
+		case 1:
+			for (int j = 0; j < i; j++)
+			{
+				if (strstr(st[j].diag, "sm") != NULL) if (strstr(st[j].matr, kl) != NULL) printf("\n%d) %s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s", j + 1, name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
+			}
+			break;
+		case 2:
+			for (int j = 0; j < i; j++)
+			{
+				if (strstr(st[j].diag, "\"") != NULL) if (strstr(st[j].matr, kl) != NULL) printf("\n%d) %s%30s | %s%10s | %s%8s | %s%10s | %s%5s | %s%3s | %s%4s", j + 1, name[0], st[j].name, name[1], st[j].dev, name[2], st[j].diag, name[3], st[j].razr, name[4], st[j].matr, name[5], st[j].izog, name[6], st[j].razh);
+			}
+			break;
+		default:
+			printf("\nNo records found");
+			break;
+		}
+	}
 }

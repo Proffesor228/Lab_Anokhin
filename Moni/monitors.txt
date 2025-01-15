@@ -1,5 +1,8 @@
 1) Name:             Xiaomi_Redmi_23.8" | Manufacturer:     Xiaomi | Diagonal:    23.8" | Resolution:  1920x1080 | Matrix:   IPS | Curved screen:   - | HDMI connector:    +
 2) Name:             Samsung_Odyssey_G3 | Manufacturer:    Samsung | Diagonal:      24" | Resolution:  1920x1080 | Matrix:   *VA | Curved screen:   - | HDMI connector:    +
-3) Name:                     Lime_E215Y | Manufacturer:       Lime | Diagonal:    21.5" | Resolution:  1920x1080 | Matrix:   *VA | Curved screen:   - | HDMI connector:    +
+3) Name:                              D | Manufacturer:          D | Diagonal:        D | Resolution:          D | Matrix:     D | Curved screen:   D | HDMI connector:    D
 4) Name:                 ASUS_ROG_Strix | Manufacturer:       ASUS | Diagonal:      49" | Resolution:  5120x1440 | Matrix:   MVA | Curved screen:   + | HDMI connector:    +
 5) Name:                  MSI_MPG321URX | Manufacturer:        MSI | Diagonal:      32" | Resolution:  3840x2160 | Matrix:  OLED | Curved screen:   + | HDMI connector:    +
+6) Name:                              G | Manufacturer:          G | Diagonal:        G | Resolution:          G | Matrix:     G | Curved screen:   G | HDMI connector:    G
+7) Name:                              B | Manufacturer:          B | Diagonal:        B | Resolution:          B | Matrix:     B | Curved screen:   B | HDMI connector:    B
+8) Name:                              S | Manufacturer:         SS | Diagonal:        S | Resolution:          S | Matrix:     S | Curved screen:   + | HDMI connector:    +

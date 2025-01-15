@@ -1,0 +1,24 @@
+﻿  Moni.c
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(19,6): warning C4030: первый список формальных параметров длиннее второго
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(19,6): warning C4028: формальный параметр 2 отличается от объявления
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(19,6): warning C4028: формальный параметр 3 отличается от объявления
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(28,3): warning C4098: main: функция типа "void", возвращающая значение
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(31,7): warning C4101: kl: неиспользованная локальная переменная
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(35,7): warning C4101: dev: неиспользованная локальная переменная
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(36,7): warning C4101: poz: неиспользованная локальная переменная
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(161,2): warning C4047: return: "int" отличается по уровням косвенного обращения от "int *"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4477: "fprintf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "2" имеет тип "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4313: fprintf: конфликт "%s" в строке формата с аргументом 2 типа "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4477: "fprintf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "4" имеет тип "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4313: fprintf: конфликт "%s" в строке формата с аргументом 4 типа "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4477: "fprintf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "6" имеет тип "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4313: fprintf: конфликт "%s" в строке формата с аргументом 6 типа "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4477: "fprintf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "8" имеет тип "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4313: fprintf: конфликт "%s" в строке формата с аргументом 8 типа "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4477: "fprintf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "10" имеет тип "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4313: fprintf: конфликт "%s" в строке формата с аргументом 10 типа "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4477: "fprintf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "12" имеет тип "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4313: fprintf: конфликт "%s" в строке формата с аргументом 12 типа "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4477: "fprintf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "14" имеет тип "int"
+C:\Users\PC\Desktop\Курсовой\Moni\Moni.c(188,16): warning C4313: fprintf: конфликт "%s" в строке формата с аргументом 14 типа "int"
+  Moni.vcxproj -> C:\Users\PC\Desktop\Курсовой\Moni\x64\Debug\Moni.exe
