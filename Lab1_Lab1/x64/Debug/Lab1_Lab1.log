@@ -1,0 +1,23 @@
+﻿  Lab1.cpp
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(33,23): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(50,23): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(50,29): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(50,35): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(50,41): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(50,47): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(50,57): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(50,63): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(67,23): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(67,29): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(67,39): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(67,45): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(67,51): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(67,57): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(67,63): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(81,8): warning C4305: /=: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(85,8): warning C4305: *=: усечение из "double" в "float"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(108,24): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(109,36): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(236,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\PC\source\repos\Lab1\Lab1_Lab1\Lab1.cpp(251,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  Lab1_Lab1.vcxproj -> C:\Users\PC\source\repos\Lab1\x64\Debug\Lab1_Lab1.exe
