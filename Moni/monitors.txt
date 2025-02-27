@@ -1,0 +1,4 @@
+1) Name:             Xiaomi_Redmi_23.8" | Manufacturer:     Xiaomi | Diagonal:    23.8" | Resolution:  1920x1080 | Matrix:   IPS | Curved screen:   - | HDMI connector:    -
+2) Name:             Samsung_Odyssey_G3 | Manufacturer:    Samsung | Diagonal:     30cm | Resolution:  1920x1080 | Matrix:   *VA | Curved screen:   - | HDMI connector:    +
+3) Name:                 ASUS_ROG_Strix | Manufacturer:       ASUS | Diagonal:      49" | Resolution:  5120x1440 | Matrix:   MVA | Curved screen:   + | HDMI connector:    +
+4) Name:                  MSI_MPG321URX | Manufacturer:        MSI | Diagonal:     45cm | Resolution:  3840x1260 | Matrix:  OLED | Curved screen:   + | HDMI connector:    +
