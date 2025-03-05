@@ -1,3 +1,0 @@
-﻿  inf_2.cpp
-C:\Users\student\source\repos\inf_2\inf_2\inf_2.cpp(46,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  inf_2.vcxproj -> C:\Users\student\source\repos\inf_2\x64\Debug\inf_2.exe
