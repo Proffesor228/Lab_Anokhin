@@ -1,0 +1,6 @@
+﻿  oop2.cpp
+C:\Users\PC\source\repos\oop2\oop2\oop2.cpp(16,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\PC\source\repos\oop2\oop2\oop2.cpp(40,9): warning C4101: size: неиспользованная локальная переменная
+C:\Users\PC\source\repos\oop2\oop2\oop2.cpp(76,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\PC\source\repos\oop2\oop2\oop2.cpp(86,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  oop2.vcxproj -> C:\Users\PC\source\repos\oop2\x64\Debug\oop2.exe
