@@ -1,0 +1,8 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (oop2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  oop3.cpp
+C:\Users\PC\source\repos\oop3\oop2\oop3.cpp(23,13): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\PC\source\repos\oop3\oop2\oop3.cpp(28,26): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\PC\source\repos\oop3\oop2\oop3.cpp(55,41): warning C4244: =: преобразование "double" в "__int64", возможна потеря данных
+C:\Users\PC\source\repos\oop3\oop2\oop3.cpp(59,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\PC\source\repos\oop3\oop2\oop3.cpp(72,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  oop2.vcxproj -> C:\Users\PC\source\repos\oop3\x64\Debug\oop3.exe
